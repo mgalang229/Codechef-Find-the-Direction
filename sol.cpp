@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	int tt;
+	cin >> tt;
+	while (tt--) {
+		int x;
+		cin >> x;
+		// use modulo operation
+		string direction[4] = {"North", "East", "South", "West"};
+		cout << direction[x % 4] << '\n';
+	}
+	return 0;
+}
